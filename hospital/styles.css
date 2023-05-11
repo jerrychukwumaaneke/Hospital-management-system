@@ -1,0 +1,34 @@
+header{display: grid;
+	grid-template-rows: 1;
+	grid-template-columns: 10% 90%;
+	min-height: 60px;
+	 }
+#list ul{list-style:none;position:relative;}
+#list ul li{float:left;padding:1em;  margin-left:3%; width:18%; }
+#list ul li a{text-decoration:none;
+text-shadow: 15px 15px 30px #666;}
+#list ul li:hover{background-color:white;border-radius:5px;}
+#subclass{display:none;}
+#list ul li:hover #subclass{display:block;position:absolute; width:30px; margin-top:15px;list-style:none;}
+.c{clear:both;}
+main{display: grid;
+	grid-template-rows: 1;
+	grid-template-columns: 90% 65%;
+	min-height: 60px;
+	 }
+	 
+#j ul li {float:left;width: 10%;}
+nav{display: grid;
+	grid-template-rows: 1;
+	grid-template-columns: 35% 35% 35%;
+	min-height: 60px; margin-left: 2%; 
+	 }
+{display: grid;
+	grid-template-rows: 1;
+	grid-template-columns:80% 20%;
+	
+}
+#je ul li{list-style: none;}
+#je ul li a {text-decoration: none; color: white;padding:1em;  margin-left:3%; width:18%;}
+#er ul li{list-style: none;}
+#er ul li a {text-decoration: none; color: white;padding:1em;  margin-left:3%; width:18%;}
